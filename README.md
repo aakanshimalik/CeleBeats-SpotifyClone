@@ -19,7 +19,7 @@ Develop an elegant React.js spotify clone named CeleBeats.
 
 - 💡 Loading & error handling with graceful UI
 
- -🎨 Styled using Tailwind CSS
+ - 🎨 Styled using Tailwind CSS
 
 ## 🧪 Known Limitations (Audius API)
 This project uses the public Audius API, which comes with a few known limitations:
