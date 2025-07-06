@@ -18,10 +18,6 @@ const Discover = () =>{
 
    const hasSongs = data?.data && data.data.length > 0;
 
-   
-    
-  
-
     return (
         <div className="flex flex-col">
             <div className="w-full flex justify-between items-center sm:flex-row flex-xol mt-4 mb-10">
@@ -58,14 +54,10 @@ const Discover = () =>{
                   Other genres may return empty data. This UI handles that gracefully for clarity and completeness.
                 </p>
               </div> 
-
-            )}
-            
-
+            )}         
             </div>
         </div>
     );
-
 }; 
 
 export default Discover;
