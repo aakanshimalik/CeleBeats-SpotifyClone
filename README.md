@@ -11,6 +11,8 @@ Develop an elegant React.js spotify clone named CeleBeats.
 ## 🚀 Features
 - 🎧 Stream trending songs
 
+- Player controls
+
 - 🧑‍🎤 Top Artists section
 
 - 📁 Tracks by Genre via dropdown
