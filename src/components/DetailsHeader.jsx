@@ -21,10 +21,6 @@ const DetailsHeader = ({artistId, songData }) => {
       <img
         alt='art'
         src={
-        //   artistId
-        //   ? artistData?.data?.profile_picture?.['480x480'] ||
-        //   artistData?.data?.profile_picture?.['150x150']
-        // : 
         songData?.artwork?.['480x480'] ||
           songData?.artwork?.['150x150']
       
