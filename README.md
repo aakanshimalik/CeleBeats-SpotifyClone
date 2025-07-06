@@ -23,7 +23,6 @@ Develop an elegant React.js spotify clone named CeleBeats.
 
 ## 🧪 Known Limitations (Audius API)
 This project uses the public Audius API, which comes with a few known limitations:
-- 🔍 No official search endpoint → implemented client-side filtering on trending tracks
 
 - 🎼 No endpoint for non-trending genre songs → only trending tracks by genre are available
 
