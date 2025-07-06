@@ -22,7 +22,9 @@ export const audiusCoreApi = createApi({
       query: () =>
          `tracks/trending?limit=50&app_name=spotify-clone`,
     }),
-    getSongsByGenre: builder.query({ query: (genre) => {
+    
+    getSongsByGenre: builder.query({ 
+      query: (genre) => {
       if (!genre || genre === 'all') {
         return `/tracks/trending?limit=50&app_name=spotify-clone`; // No genre filter
       }
@@ -30,21 +32,31 @@ export const audiusCoreApi = createApi({
     } 
        
     }),
+    
     getSongDetails: builder.query({ 
       query: (songid) => `tracks/${songid}` }),
-    getSongRelated: builder.query({ query: ({songid }) => `/tracks/${songid}` }),
+    
+    getSongRelated: builder.query({
+      query: ({songid }) => `/tracks/${songid}` }),
+    
     getSongsByArtist: builder.query({
       query: (artistId) => `users/${artistId}/tracks?app_name=your_app`,
     }),
+    
     getArtistDetails: builder.query({
       query: (artistId) => `users/${artistId}?app_name=spotify-clone`,
     }),
-    getSongsByCountry: builder.query({ query: (countryCode) => {
+    
+    getSongsByCountry: builder.query({
+      query: (countryCode) => {
       const genre = genreByCountry[countryCode] || 'electronic'; // default fallback
           return `/tracks/trending?genre=${genre}&limit=20&app_name=spotify-clone`;     
     }
   }),
-  getSongsBySearch: builder.query({ query: (searchTerm) => `search?query=${searchTerm}&app_name=spotify-clone` }),
+    
+  getSongsBySearch: builder.query({
+    query: (searchTerm) => `search?query=${searchTerm}&app_name=spotify-clone` 
+  }),
  
 
   }),
