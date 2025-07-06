@@ -12,10 +12,6 @@ const DetailHeader = ({artistId, artistData }) => {
   const isArtist = Boolean(artistId);
   console.log('Rendering as artist?', isArtist);
 
-//   useEffect(() => {
-//     // Fetch artist data here
-//   }, [artistId]);
-
   if (isLoading) return <div>Loading...</div>;
   if (error) {
   if (error.status === 404) {
