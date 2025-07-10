@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-const Search = () => {
-  <div>Search implenting soon!</div>;
-=======
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
