@@ -78,4 +78,3 @@ const Searchbar = () => {
 };
 
 export default Searchbar;
->>>>>>> abc8eae (Updation)
