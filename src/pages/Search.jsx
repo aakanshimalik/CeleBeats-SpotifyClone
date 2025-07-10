@@ -43,6 +43,5 @@ const Search = () => {
       </div>
     </div>
   );
->>>>>>> abc8eae (Updation)
 };
 export default Search;
