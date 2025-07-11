@@ -59,4 +59,4 @@ This lets users explore music based on where they are or where they want to be â
 
 
 ## Demo Link:-
- https://celebeats-celebalxspotify.onrender.com
+ https://celebeats-spotifyclone.onrender.com
