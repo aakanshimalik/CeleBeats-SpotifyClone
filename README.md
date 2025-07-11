@@ -1,64 +1,62 @@
-# CeleBeats - Celebal + Beats 
+# 🎧 CeleBeats
 
-Develop an elegant React.js spotify clone named CeleBeats. 
-⚠️ Note: Due to limited support for genre-specific filtering in the Audius public API, certain features (like search and genre browsing) are implemented with fallback logic and may not return full results.
+🌟 Project Name: "CeleBeats"
+ Celebal x Beats - A music app for celebal Technologies in collaboration with spotify.
 
-# Demo
-  https://celebeats-spotifyclone.onrender.com 
-  Deployment via render.com
+"Cele" — short for Celebal Technologies
 
+"Beats" — emphasizing the rhythmic, musical core of the app.
+
+Together, CeleBeats represents the idea of celebrating beats from around the world — music that speaks to a location’s culture, people, or trending sounds.
+
+## 🔌 APIs Used
+🎶 Audius API
+- Audius is a decentralized, artist-first music platform. We leverage its public API to:
+
+- Fetch trending tracks
+
+- Filter songs by genre, popularity, or artist
+
+- Retrieve metadata such as title, artist, album artwork, and streaming URLs
+
+- Audius enables free access to a wide range of independent and trending music — perfect for a geo-aware discovery platform.
+
+🌍 Geo API (e.g., IP Geolocation, OpenCage, or GeoJS)
+- To make CeleBeats location-aware, we use a Geo API to:
+
+- Determine the user's current geographic location via IP
+
+
+This lets users explore music based on where they are or where they want to be — providing a unique cultural layer to their listening experience.
 
 ## 🚀 Features
-- 🎧 Stream trending songs
 
-- Player controls
+-  Music playlists
 
-- 🧑‍🎤 Top Artists section
+-  Search functionality
 
-- 📁 Tracks by Genre via dropdown
+-  Player controls
 
-- 🌍 Songs by Country (based on genre fallback mapping)
+-  Albums, and genre options
 
-- 💡 Loading & error handling with graceful UI
+- 📍 Location-based song recommendations
 
- - 🎨 Styled using Tailwind CSS
+- 🌐 Explore songs trending in different parts of the world
 
-## 🧪 Known Limitations (Audius API)
-This project uses the public Audius API, which comes with a few known limitations:
+- 🎵 Stream music directly via Audius
 
-- 🎼 No endpoint for non-trending genre songs → only trending tracks by genre are available
+- 🎨 Beautiful UI with cultural artwork and maps (optional frontend add-on)
 
-- 🎭 Some genres (e.g., Soul, Film, Reggae) may return empty arrays
+- 📁 Lightweight, fast, and free
 
-- 📈 Top Artists fetched by aggregating trending tracks, not via a direct endpoint
+## 🔧 Tech Stack
+- Frontend: React (or your preferred framework)
 
-## 🛠️ Technologies Used
-- React
-- redux Toolkit
-- Audius API
-- React Router DOM
-- Vite(for faster deployment)
+- APIs: Audius API, Geo IP API
 
-
-## How to run locally?
-git clone https://github.com/aakanshimalik/CeleBeats-SpotifyClone.git
-cd into project
-npm install
-npm run dev
-
-
-## 🙋‍♂️ Why Audius?
-Audius is a decentralized, artist-first streaming platform that offers a public API. While it lacks some of the advanced endpoints you'd find in Spotify or Shazam, it provides a great base for showcasing:
-
-- Data fetching via RTK Query
-- Pagination & filtering logic
-- Handling real-world API constraints
+- Hosting: Render
 
 
 
-## Contribution Notes
-This project is focused on demonstrating frontend integration with a real API under limitations. If Audius expands its API, the app can evolve accordingly.
-
-
-## Author 
-Aakanshi Malik
+## Demo Link:-
+ https://celebeats-celebalxspotify.onrender.com
