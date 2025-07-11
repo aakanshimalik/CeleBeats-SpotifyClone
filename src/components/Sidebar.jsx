@@ -7,8 +7,6 @@ import { MdPlaylistPlay } from 'react-icons/md';
 import  logo1  from '../assets/favicon.svg';
 import logo2 from '../assets/CT.jpeg';
 
-import { links } from '../assets/constants';
-
 const links = [
   { name: 'Discover', to: '/', icon: HiOutlineHome },
   { name: 'Around You', to: '/around-you', icon: HiOutlinePhotograph },
